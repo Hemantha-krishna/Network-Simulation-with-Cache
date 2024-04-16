@@ -1,6 +1,6 @@
-# Wireless Network Simulation with ns-3
+# Wireless Network Simulation with NS-3
 
-This repository contains an ns-3 simulation script for a wireless network scenario with multiple mobile nodes and a monitoring node.
+This repository contains an NS-3 simulation script for a wireless network scenario with multiple mobile nodes and a monitoring node.
 It has added support for caching mechanisms.
 
 The simulation demonstrates the following features:
@@ -16,7 +16,7 @@ The simulation can be used to study wireless network behavior, mobility models, 
 
 ## Usage
 
-1. Install ns-3 on your system (I used ns-3.36)
+1. Install NS-3 on your system (I used NS-3.36)
 2. Clone this repository: `git clone https://github.com/Hemantha-krishna/Network-Simulation-with-Cache`
 3. Navigate to the repository directory
 4. Build the simulation script: `./waf --run scratch/wireless-simulation` or `./ns3 run scratch/wireless-simulation`
