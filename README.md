@@ -16,10 +16,11 @@ The simulation can be used to study wireless network behavior, mobility models, 
 
 ## Usage
 
-1. Install ns-3 on your system.(I have used ns-3.36)
+1. Install ns-3 on your system (I used ns-3.36)
 2. Clone this repository: `git clone https://github.com/Hemantha-krishna/Network-Simulation-with-Cache`
 3. Navigate to the repository directory
-4. Build the simulation script: `./waf --run "scratch/wireless-simulation"` or `./ns3 run scratch/wireless-simulation
-5. After the simulation is completed, you can view the animation using NetAnim
+4. Build the simulation script: `./waf --run "scratch/wireless-simulation"` or `./ns3 run scratch/wireless-simulation`
+5. We can find the PCAP files in the scratch folder which can be analyzed using tools like Wireshark
+6. After the simulation is completed, you can view the animation using NetAnim
 
 Feel free to modify the simulation parameters (e.g., number of nodes, mobility area, simulation time) in the `main` function to explore different scenarios.
